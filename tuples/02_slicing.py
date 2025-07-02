@@ -14,3 +14,8 @@ else:
     print("Sorry ! Element not present here")
 
 # Yes the element present
+
+tp2 = (1,1,1,2,2,2)
+print(tp2.count(1))#3
+print(tp.index(4))#returns the numbers index whether 4 is there it will return it index
+print(tp2.index(1))#it also returns the index of first encountered element

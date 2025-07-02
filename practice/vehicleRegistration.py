@@ -13,7 +13,7 @@ else:
     flag =0
     for i in range(0,len(li)-1):
         if(l[i]==li[i+1]):
-            contiue
+            continue
         else:
             flag = 1
             break
